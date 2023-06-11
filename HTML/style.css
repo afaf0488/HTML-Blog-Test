@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* same */
+
+html {
+    font-size: 100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    line-height: 1.7;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* --- header --- */
+    
+.header-text{
+    background : url("img/BfehKU6.jpg") , black;
+    background-size:50px  , 200px;
+    background-repeat:no-repeat;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+    
+
+}
+
+/* --- main --- */
+
+
+
+.main{
+    background-image: url("img/039kon0254_1_osu_waifu2x_art_noise1_scale.png");
+    background-position: center ;
+    position: relative;
+    padding: 150px;
+}
+
+.main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hr1{
+    border: 5px solid rgb(0, 0, 0);
+    width: 600px;
+    left: 825px;
+    position: relative;
+    
+}
+.main .text{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    position: relative;
+}
+
+.main-down{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    position: relative;
+    bottom: -100px;
+
+}
+
+.article-title{
+    font-size:50px
+}
