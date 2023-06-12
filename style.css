@@ -53,12 +53,15 @@ a{
 
 .hr1{
     border: 5px solid rgb(0, 0, 0);
-    width: 600px;
-    left: 512px;
-    position: relative;
-    
+    width: 40%;
+    left: 755px;
+    position: absolute;
+    box-sizing: border-box;
 }
+
+
 .main .text{
+
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 70px;
@@ -100,11 +103,24 @@ a{
     border: 5px solid rgb(0,0,0);
     width: 550px;
     top: 40px;
+    padding: 20px;
 }
 
 .article-1-pic{
     position: relative;
-    left: 1500px;
-    bottom: 175px;
+    left: 1900px;
+    bottom: 350px;
+
+}
+
+@media screen and (max-width:1921px) {
+
+    .hr1{
+        left: 575px;
+    }
+    
+    .article-1-pic{
+        left: 1350px;
+    }
 
 }
