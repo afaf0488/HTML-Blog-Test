@@ -19,7 +19,7 @@ a{
 /* --- header --- */
     
 .header-text{
-    background : url("img/BfehKU6.jpg") , black;
+    background : url("img/BfehKU6.jpg") , rgb(127, 187, 232);
     background-size:50px  , 200px;
     background-repeat:no-repeat;
     text-align: center;
@@ -76,6 +76,8 @@ a{
 
 }
 
+/* --- article-1 --- */
+
 .article-1{
     padding : 35px;
     
@@ -112,6 +114,23 @@ a{
     bottom: 350px;
 
 }
+
+/* --- article-2 --- */
+
+.article-2{
+    padding: 35px;
+}
+
+
+
+.article-2-title{
+    font-size: 75px;
+
+}
+
+
+
+
 
 @media screen and (max-width:1921px) {
 
