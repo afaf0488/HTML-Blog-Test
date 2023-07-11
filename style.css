@@ -19,7 +19,7 @@ a{
 /* --- header --- */
     
 .header-text{
-    background : url("img/BfehKU6.jpg") , rgb(127, 187, 232);
+    background : url("img/512px-IM@S_ML_Papillon_Mark.svg.png") , rgb(22, 16, 7);
     background-size:50px  , 200px;
     background-repeat:no-repeat;
     text-align: center;
@@ -38,7 +38,7 @@ a{
     background-image: url("img/039kon0254_1_osu_waifu2x_art_noise1_scale.png");
     background-position: center ;
     position: relative;
-    padding: 150px;
+    padding: 255px;
 }
 
 .main::before{
@@ -104,7 +104,7 @@ a{
     overflow-wrap: break-word;
     border: 5px solid rgb(0,0,0);
     width: 550px;
-    top: 40px;
+    top: 70px;
     padding: 20px;
 }
 
@@ -119,18 +119,39 @@ a{
 
 .article-2{
     padding: 35px;
+    background-color: rgba(108, 182, 239, 0.5);
+    position: relative;
 }
-
 
 
 .article-2-title{
-    font-size: 75px;
+    font-size:75px;
+    left: 20px;
+    position: relative;
 
 }
 
+.hr3{
+    border: 5px solid rgb(0, 0, 0);
+    width: 567px;
+    left: -4px;
+    position: relative;
 
+}
 
+.best-game{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
 
+.millon-logo{
+    width: 600px;
+    margin : auto;
+    top: 25px;
+    position: relative;    
+}
 
 @media screen and (max-width:1921px) {
 
